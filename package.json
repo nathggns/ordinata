@@ -1,0 +1,42 @@
+{
+  "name": "ordinata",
+  "version": "0.0.3",
+  "main": "lib/ordinata.js",
+  "typings": "lib/ordinata.d.ts",
+  "module": "lib/ordinata.js",
+  "files": [
+    "README.md",
+    "lib"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "ts-node ./src/ordinata.test.ts"
+  },
+  "author": {
+    "name": "Nate Higgins",
+    "email": "nate@nateh.uk",
+    "url": "https://nateh.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathggns/ordinata.git"
+  },
+  "keywords": [
+    "pure",
+    "reselect",
+    "filter",
+    "array",
+    "redux",
+    "selectors"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.153",
+    "immer": "^6.0.9",
+    "reselect": "^4.0.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
